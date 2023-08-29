@@ -11,12 +11,27 @@
 }
 
 
+table{
+    padding: 5px;
+    text-align: center;
+}
+table tr{
+    padding: 5px;
+    text-align: center;
+}
+table th{
+    padding: 2px;
+    text-align: center;
+}
+table td{
+    padding: 2px;
+    text-align: center;
+}
 
 
-
-table tbody:first-child{
+table thead tr th:first-child {
+    background-color: red;
+}
+table tbody tr td:nth-child(odd){
     background-color: gray;
 }
-/* table thead th:first-child {
-    background-color: red;
-} */
