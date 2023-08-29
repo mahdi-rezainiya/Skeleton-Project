@@ -1,0 +1,22 @@
+#header{
+    background-color: #f5f5f5;
+}
+#header-left{
+    background-color: #5f5f5f;
+    padding: 10px;
+}
+#header-right{
+    background-color: #5f5f5f;
+    padding: 10px;
+}
+
+
+
+
+
+table tbody:first-child{
+    background-color: gray;
+}
+/* table thead th:first-child {
+    background-color: red;
+} */
